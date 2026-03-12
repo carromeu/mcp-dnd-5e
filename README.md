@@ -84,11 +84,10 @@ Reiniciar o Claude Desktop após salvar.
 
 | Variável | Default | Descrição |
 |----------|---------|-----------|
-| `PORT` | `3000` | Porta do servidor |
+| `PORT` | `3000` | Porta mapeada no host (Docker) |
 | `NODE_ENV` | `production` | Ambiente |
 | `GRAPHQL_ENDPOINT` | `https://www.dnd5eapi.co/graphql` | URL do upstream GraphQL |
 | `UPSTREAM_TIMEOUT` | `30000` | Timeout upstream (ms) |
-| `REDIS_URL` | `redis://redis:6379` | URL de conexão Redis |
 | `CACHE_TTL` | `3600` | Staleness do cache (segundos) |
 | `RATE_LIMIT_WINDOW` | `60000` | Janela do rate limit (ms) |
 | `RATE_LIMIT_MAX` | `60` | Requests por IP por janela |
